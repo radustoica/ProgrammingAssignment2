@@ -2,6 +2,7 @@
 
 
 ## makeCacheMatrix function creates a special "matrix" object that can cache its inverse
+## the makeCacheMatrix func will not check if the input has an inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 
